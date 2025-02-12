@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Confirmação de Envio">
+    <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Vanessa Ribeiro">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" href="./assets/img/favicon.svg" />
+
+    <!--  Link para a Folha de Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Portfólio da Vanessa</title>
 </head>
+
 <body>
-    <header>
-        <div id="header_content">
+
+    <header class="flex menu_container">
+
+        <div id="header_content" class="menu_content">
             <div id="titulo">
-                <a href="#">Universo</a>
+                <a href="index.html">Universo</a>
             </div>
         </div>
+
     </header>
 
     <main>
-        <section id="success_message">
-            <h1>E-mail enviado com sucesso!</h1>
-            <p>Obrigado por entrar em contato, logo mais retornarei sua mensagem!</p>
-            <a href="index.html">
-                <button>Voltar</button>
-            </a>
+        <section id="home" class="flex home_container_sucess">
+
+            <article id="home_sucess" class="flex">
+
+                <h1>E-mail enviado com sucesso!</h1>
+                <h4>Obrigado por entrar em contato, logo mais retornarei sua mensagem!</h4>
+
+                <a class="botao" href="index.html"></a>
+
+            </article>
+
+            
         </section>
     </main>
 
