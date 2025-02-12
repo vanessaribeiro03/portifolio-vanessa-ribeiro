@@ -14,10 +14,11 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Vanessa Ribeiro">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" href="./assets/img/favicon.svg"/>
+    <link rel="icon" href="./assets/img/icons8-laptop-coding-100.svg"/>
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Portfólio da Vanessa</title>
+    <title>Vanessa Ribeiro</title>
 </head>
+
 <body>
     <!-- Cabeçalho da pagina -->
     <header class="flex menu_container" >
@@ -26,7 +27,7 @@
 
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
-                <a href="#">Universo</a>
+                <a href="#">Início</a>
             </div>
 
             <!-- Menu  -->
@@ -52,9 +53,10 @@
 
             <article id="home_texto" class="flex home_content">
 
-                <h4>Bem-vindo ao Novo Universo</h4>
-                <h1>Mundos diferentes para pessoas diferentes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nobis commodi quod incidunt quisquam deleniti neque nemo quaerat. Praesentium accusantium veritatis delectus harum laudantium, quibusdam eaque officiis vero est ratione.</p>
+                <h4>Bem-vindo(a)!</h4>
+                <h1>Conectando Criatividade e Tecnologia</h1>
+                <p>Aqui, cada projeto é um mundo em si, criado para pessoas e necessidades únicas.
+                    Com uma abordagem inovadora e paixão pela tecnologia, estou sempre em busca de soluções que façam a diferença. Explore meus trabalhos e veja como podemos transformar ideias em realidade!</p>
                 <a 
                     href="https://github.com/vanessaribeiro03" target="_blank"
                     class="botao"
@@ -64,30 +66,12 @@
             </article>
 
             <article id="home_imagem" class="home_content">
-                <img src="./assets/img/astronauta.svg" alt="Capacete de Astronauta Animado">
+                <img src="assets/img/home.svg" alt="Capacete de Astronauta Animado">
             </article>
 
         </section>
 
         <section id="about" class="flex sobre_container">
-
-            <img src="./assets/img/user_02.svg" alt="Foto do perfil do github">
-
-            <article id="about_texto">
-                <h1>Sobre mim</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo culpa ipsum, hic laboriosam perspiciatis nihil impedit molestiae magni tenetur dolores corporis aliquid officia fugiat quisquam vitae magnam ad atque ipsam.</p>
-
-                <div id="about_github" class="flex sobre_github">
-                    <a 
-                        href="https://github.com/vanessaribeiro03" target="_blank"
-                        class="botao"
-                >
-                    Github
-                </a>
-                <p>200 seguidores</p>
-                <p>20 repositorios</p>
-                </div>
-            </article>
 
         </section>
 
@@ -96,7 +80,9 @@
 
             <article id="redes_sociais" class="contato_content">
                 <h4>Contate-me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ex atque possimus voluptatem, molestiae unde saepe optio sequi harum voluptates odio dignissimos quibusdam quo consequatur aperiam soluta quod accusantium maiores.</p>
+                <p> Tenho muitos projetos e experiências para compartilhar! Te convido a explorar minhas principais redes abaixo, 
+                    onde compartilho insights sobre meus projetos, seus bastidores e toda a documentação do processo. Se preferir, 
+                    fique à vontade para me enviar um e-mail diretamente, adoraria trocar ideias e colaborar em conjunto! </p>
 
                 <!-- Redes Sociais -->
                 <div id="icones_redes_sociais" class="social_container">
@@ -112,7 +98,10 @@
             
 
             <!-- Formulário de Contato -->
-            <form action="sucess.html" method="get"> 
+            <form action="https://formsubmit.co/406d80b813623de66ff94c52676241fe" method="POST" id="formulario"> 
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <label for="nome">Nome</label>
                 <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
@@ -140,5 +129,8 @@
     <footer>
         Feito com 💖 por Vanessa Ribeiro - 2025
     </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
 
 </html>
